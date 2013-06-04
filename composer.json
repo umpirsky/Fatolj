@@ -1,0 +1,38 @@
+{
+    "name": "umpirsky/fatolj",
+    "type": "library",
+    "description": "Fåtölj is a multiple file format transliteration tool.",
+    "keywords": ["transliteration", "translation", "convert"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saša Stamenković",
+            "email": "umpirsky@gmail.com",
+            "homepage": "http://umpirsky.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "umpirsky/transliterator": "*",
+        "symfony/console": "2.2.*",
+        "symfony/translation": "2.2.*",
+        "jms/translation-bundle": "1.1.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.*"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fatolj\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
